@@ -1,0 +1,46 @@
+@charset "utf-8";
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Bebas Neue', cursive;
+
+}
+.header img {
+    float: left;
+    width: 100px;
+    height: 70px;
+}
+.header h1{
+    position: relative;
+    top: 18px;
+    left: 10px;
+}
+.wrapper {
+    width: 1170px;
+    margin: auto;
+}
+.nav-area{
+    float:right;
+    list-style: none;
+    margin-top: 20px;
+    padding-right: 10px;
+}
+.nav-area li{
+    display: inline-block;
+}
+.nav-area li a{
+    color:black;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-size: 14px
+}
+.nav-area li a:hover{
+    background: lightgrey;
+    color: black;
+}
+.logo img{
+    width: 90px;
+    float: left;
+    padding-left: 5%;
+    padding-top: 0.5%;
+}
