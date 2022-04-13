@@ -15,28 +15,9 @@
     top: 18px;
     left: 10px;
 }
-.wrapper {
+.wrapper{
     width: 1170px;
     margin: auto;
-}
-.nav-area{
-    float:right;
-    list-style: none;
-    margin-top: 20px;
-    padding-right: 10px;
-}
-.nav-area li{
-    display: inline-block;
-}
-.nav-area li a{
-    color:black;
-    text-decoration: none;
-    padding: 5px 20px;
-    font-size: 17px
-}
-.nav-area li a:hover{
-    background: lightgrey;
-    color: black;
 }
 .logo img{
     width: 90px;
@@ -44,4 +25,19 @@
     padding-left: 5%;
     padding-top: 0.5%;
 }
-
+.topnav a{
+    float: right;
+    color: black;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 16px;
+}
+.topnav a:hover{
+    background-color: white;
+    color: grey;
+}
+.topnav a.active{
+    background-color: lightgrey;
+    color: black;
+}
