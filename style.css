@@ -28,7 +28,7 @@
 .topnav a{
     float: right;
     color: black;
-    text-align: right;
+    text-align: relative;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 16px;
@@ -40,4 +40,30 @@
 .topnav a.active{
     background-color: lightgrey;
     color: black;
+}
+.header{
+    overflow: hidden;
+    background-color: white;
+    padding: 20px 10px;
+}
+.header a{
+    float: left;
+    color: black;
+    text-align: left;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 60px;
+    border-radius: 4px;
+}
+.header a.logo{
+    font-size: 45px;
+    font-weight: bold;
+}
+@media screen and (max-width: 500px){
+    .header a{
+        float: none;
+        display: block;
+        text-align: left;
+    }
 }
