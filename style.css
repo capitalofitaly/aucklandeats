@@ -22,13 +22,18 @@
 .logo img{
     width: 90px;
     float: left;
-    padding-left: 5%;
+    padding-left: 2%;
     padding-top: 0.5%;
+}
+.topnav{
+    background-color: white;
+    float: right;
 }
 .topnav a{
     float: right;
     color: black;
-    text-align: relative;
+    text-align: center;
+    margin-right: 45px;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 16px;
