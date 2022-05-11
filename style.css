@@ -40,9 +40,13 @@
 }
 .topnav a:hover{
     background-color: white;
-    color: grey;
+    color: lightgrey;
 }
 .topnav a.active{
+    background-color: black;
+    color: lightgrey;
+}
+.topnav a.active:hover{
     background-color: lightgrey;
     color: black;
 }
