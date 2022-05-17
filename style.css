@@ -9,6 +9,7 @@
     float: left;
     width: 100px; 
     height: 70px; 
+    display: flex;
 }
 .header h1{
     position: relative;
@@ -33,6 +34,7 @@
     float: right;
     margin-right: 45px;
     padding: 14px 16px;
+    flex-direction: row;
     text-decoration: none;
     color: black;
     font-size: 17px;
@@ -52,13 +54,14 @@
 .header{
     overflow: hidden;
     background-color: white;
-    padding: 20px 10px;
+    padding: 2%;
+    display: flex;
 }
 .header a{
     float: left;
     color: black;
     text-align: left;
-    padding: 12px;
+    padding: 1%;
     text-decoration: none;
     font-size: 18px;
     line-height: 60px;
@@ -77,14 +80,15 @@
 }
 .about{
     font-size: 30px;
-    padding: 5%;
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    justify-content: space-around;
+    padding: 2%;
+    display: inline-block;
+    text-align: center;
+    justify-content: space-evenly;
+    position: relative;
 }
 .paragraph{
     text-align: center;
     display: flex;
     padding: 3%;
+    font-size: 17px;
 } 
