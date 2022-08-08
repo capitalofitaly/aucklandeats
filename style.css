@@ -30,13 +30,13 @@
     display: flex;
 }
 .topnav{
-    background-color: white;
+    background-color: none;
     float: right;
     display: inline;
     padding-left: 54%;
     position: absolute;
     margin-bottom: 0 !important;
-    margin-top: -100px;
+    margin-top: -92px;
 }
 .topnav a{
     float: right;
