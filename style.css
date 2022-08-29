@@ -32,7 +32,7 @@
 .topnav{
     background-color: none;
     float: right;
-    display: inline;
+    display: flex;
     margin-left: 54%;
     position: absolute;
     margin-bottom: 0 !important;
@@ -85,13 +85,13 @@
         text-align: left;
     }
 }
-.about{
+.quiz{
     font-size: 30px;
     padding: 2%;
-    display: inline-block;
+    display: flex;
     text-align: center;
-    justify-content: space-evenly;
-    position: relative;
+    justify-content: center;
+    position: center;
 }
 .paragraph{
     text-align: center;
@@ -102,27 +102,29 @@
 .dessert{
     font-size: 30px;
     padding: 2%;
-    display: inline-block;
+    display: flex;
     text-align: center;
-    justify-content: space-evenly;
-    position: relative;
+    justify-content: center;
+    position: center;
 }
 .quickbite{
     font-size: 30px;
     padding: 2%;
-    display: inline-block;
+    display: flex;
     text-align: center;
-    justify-content: space-evenly;
-    position: relative;
+    justify-content: center;
+    position: center;
 }
 .top3{
     font-size: 30px;
     padding: 2%;
-    display: inline-block;
+    display: flex;
     text-align: center;
-    justify-content: space-evenly;
-    position: relative;
+    justify-content: center;
+    position: center;
 }
-
+#start{
+    text-align: center;
+}
 
 
