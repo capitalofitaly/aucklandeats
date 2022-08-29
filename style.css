@@ -134,9 +134,9 @@
     text-align: center;
 }
 .column a:hover{
-    transition: .5s ease;
+    transition: .3s ease;
     opacity: 50%;
-    background-color: grey;
+    background-color: darkgrey;
 }
 #start{
     text-align: center;
