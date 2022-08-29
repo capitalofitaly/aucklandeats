@@ -11,6 +11,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="script.js"> </script>
 </head>
 <body>
 <div class="wrapper">
@@ -22,19 +23,27 @@
     </div>
     </div> 
     <div class="topnav">
-        <a href="about.html">About</a>
-        <a href="dessert.html">Dessert</a>
-        <a href="quickbite.html">Quick Bite</a>
         <a href="top3.html">Top 3</a>
+    <a href="quickbite.html">Quick Bite</a>
+    <a href="dessert.html">Dessert</a>
+    <a href="quiz.html">Quiz</a>
+    <a class="active" href="#signup">Sign Up</a>
       </div>
-    <div class="about wrapper">
-    <div class="about">About
+    <div class="quiz">Quiz
     </div>
     </div>
-    <div class="paragraph">
-        <p style="font-family: 'Fjalla One', sans-serif;">
-            Kia Ora, whanau! Auckland Eats highlights some of the best eateries in Auckland City. We give you the local goggles that you need to explore our Top 3's, on the run bites, and desserts - for the days you have a bit of a sweet tooth! Whether you're Kiwi, tourist etc. this site is the site to be when you're looking for some good food. Sign up with us now to become a member and rate dishes you've had, get updates on new dishes, and bookmark your favourites!
-        </p>
-    </div>     
+       <div id="container">
+        <div id="start">Take Quiz</div>
+        <div id="quiz">
+            <div id="question"></div>
+            <div id="qImg"></div>
+            <div id="choices">
+                <div class="choice" id="A"></div>
+                <div class="choice" id="B"></div>
+                <div class="choice" id="C"></div>   
+                <div id="answer"></div>         
+            </div>
+        </div>
+       </div>
 </body>
 </html>
