@@ -138,6 +138,78 @@
     opacity: 50%;
     background-color: darkgrey;
 }
+.beachclub{
+    font-size: 30px;
+    padding: 2%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    position: center;
+}
+.garrison{
+    font-size: 30px;
+    padding: 2%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    position: center; 
+}
+.reignpour{
+    font-size: 30px;
+    padding: 2%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    position: center;
+}
+.smthdumpling{
+    font-size: 30px;
+    padding: 2%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    position: center;
+}
+.mightydog{
+    font-size: 30px;
+    padding: 2%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    position: center;
+}
+.kchicken{
+    font-size: 30px;
+    padding: 2%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    position: center;
+}
+.grownupdonuts{
+    font-size: 30px;
+    padding: 2%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    position: center;
+}
+.moustachebar{
+    font-size: 30px;
+    padding: 2%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    position: center;
+}
+.hillhousecafe{
+    font-size: 30px;
+    padding: 2%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    position: center;
+}
 #start{
     text-align: center;
 }
