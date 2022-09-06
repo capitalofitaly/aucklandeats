@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
-    <script type="text/javascript" src="script.js"> </script>
+    <script src="script.js"></script>
 </head>
 <body>
 <div class="wrapper">
@@ -34,13 +34,16 @@
     </div>
        <div id="container">
         <div id="start">Take Quiz</div>
-        <div id="quiz">
+        <div id="quiz" style="display: none"> 
             <div id="question"></div>
             <div id="qImg"></div>
             <div id="choices">
-                <div class="choice" id="A"></div>
-                <div class="choice" id="B"></div>
-                <div class="choice" id="C"></div>   
+                <div class="choice" id="A"
+                onclick="checkAnswer ('A')"></div>
+                <div class="choice" id="B"
+                onclick="checkAnswer ('B')"></div>
+                <div class="choice" id="C"
+                onclick="checkAnswer ('C')"></div>   
                 <div id="answer"></div>         
             </div>
         </div>
