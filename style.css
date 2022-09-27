@@ -53,6 +53,7 @@
 .topnav a.active{
     background-color: black;
     color: lightgrey;
+    border-radius: 7.5px;
 }
 .topnav a.active:hover{
     background-color: lightgrey;
@@ -98,6 +99,7 @@
     display: flex;
     padding: 3%;
     font-size: 17px;
+    font-family: Montserrat,sans-serif;
 } 
 .dessert{
     font-size: 30px;
@@ -214,6 +216,9 @@
     font-size: 1.5em;
     text-align: center;
 }
+.info{
+    font-size: 1.5em;
+}
 .answer{
     background-color: black;
     color: grey;
@@ -239,6 +244,16 @@
     text-align: center;
     font-size: 2em;
 }
+.mini.button{
+    display: block;
+    width: 30%;
+}
+.next{
+    float: right;
+}
+.previous{
+    float: left;
+}
 .button:hover{
     background-color: black;
     color: grey;
@@ -247,4 +262,16 @@
     width: 60%;
     padding: .5em 0;
     margin: .5em auto;
+}
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+.response p{
+    margin: 50px auto;
+    font-size: 3em;
 }
