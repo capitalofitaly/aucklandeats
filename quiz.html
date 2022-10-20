@@ -5,13 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>
-        About
+        Quiz
     </title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
     <script defer src="script.js"></script>
+
 </head>
 <body>
 <div class="wrapper">
@@ -26,55 +28,75 @@
         <a href="top3.html">Top 3</a>
     <a href="quickbite.html">Quick Bite</a>
     <a href="dessert.html">Dessert</a>
-    <a href="quiz.html">Quiz</a>
-    <a class="active" href="#signup">Sign Up</a>
+    <a class="active" href="quiz.html">Quiz</a>
       </div>
-      <div class="quiz">Quiz</div>
+      <div class="quiz">What Restaurant Should You Go To?</div>
       <div id="quiz-area">
         <section class="q-n-a">
-            <h3 class="question">Question 1</h3>
+            <h3 class="question">What Price Range Are You Looking For?</h3>
             <div class="answers">
-                <div class="answer"data-value="1">1</div>
-                <div class="answer"data-value="2">2</div>
-                <div class="answer"data-value="3">3</div>
-                <div class="answer"data-value="4">4</div>
+                <div class="answer"data-value="1">$</div>
+                <div class="answer"data-value="2">$$</div>
+                <div class="answer"data-value="3">$$$</div>
+                
             </div>
-            <div class="button-holder">&nbsp;</div>
+            <div class="button-holder clearfix">
+                <div class="previous mini button">Previous</div>
+                <div class="next mini button">Next</div>
+            </div>
+
         </section>
 
         <section class="q-n-a">
-            <h3 class="question">Question 2</h3>
+            <h3 class="question">Sweet Or Savoury?</h3>
             <div class="answers">
-                <div class="answer"data-value="5">5</div>
-                <div class="answer"data-value="6">6</div>
-                <div class="answer"data-value="7">7</div>
-                <div class="answer"data-value="8">8</div>
+                <div class="answer"data-value="4">Sweet</div>
+                <div class="answer"data-value="5">Savoury</div>
+                <div class="answer"data-value="6">Both</div>
+              
             </div>
-            <div class="button-holder">&nbsp;</div>
+              <div class="button-holder clearfix">
+                <div class="previous mini button">Previous</div>
+                <div class="next mini button">Next</div>
+            </div>
+
         </section>
 
         <section class="q-n-a">
-            <h3 class="question">Question 3</h3>
+            <h3 class="question">Would You Like Something Filling? Or Something Small To Eat?</h3>
             <div class="answers">
-                <div class="answer"data-value="9">9</div>
-                <div class="answer"data-value="10">10</div>
-                <div class="answer"data-value="11">11</div>
-                <div class="answer"data-value="12">12</div>
+                <div class="answer"data-value="7">I just want a snack</div>
+                <div class="answer"data-value="8">I'm quite hungry</div>
+                <div class="answer"data-value="9">I'm very hungry</div>
+                
             </div>
-            <div class="button-holder">&nbsp;</div>
+            <div class="button-holder clearfix">
+                <div class="previous mini button">Previous</div>
+                <div class="next mini button">Next</div>
+            </div>
+
         </section>
 
         <section class="q-n-a">
-            <h3 class="question">Question 4</h3>
+            <h3 class="question">What Type of Cuisine Are You Looking For?</h3>
             <div class="answers">
-                <div class="answer"data-value="13">13</div>
-                <div class="answer"data-value="14">14</div>
-                <div class="answer"data-value="15">15</div>
-                <div class="answer"data-value="16">16</div>
+                <div class="answer"data-value="10">Western</div>
+                <div class="answer"data-value="11">Asian</div>
+                <div class="answer"data-value="12">Fusion</div>
+               
             </div>
-            <div class="button-holder">&nbsp;</div>
+            <div class="button-holder clearfix">
+                <div class="previous mini button">Previous</div>
+                <div class="next mini button">Next</div>
+            </div>
+            
         </section>
-        <div class="button finish">We suggest...</div>
+       
       </div>
+      <div class="button finish" style="display:none;">We suggest...</div>
+      <div class="response" style="display:none;">
+        <p></p>
+        <div class="missed button" style="display:none;">Check Answers</div>
+    </div>
 </body>
 </html>
