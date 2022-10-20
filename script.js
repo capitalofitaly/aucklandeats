@@ -5,7 +5,7 @@ var myQuestions = $('section.q-n-a');
 var currQ = 0;
 
 shuffle(myQuestions);
-// console.log(myQuestions);
+console.log(myQuestions);
 myQuestions.each (function(index){
 
     var myAnswers = $(this).find('.answer');
